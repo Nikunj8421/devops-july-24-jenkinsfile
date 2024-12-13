@@ -1,0 +1,10 @@
+pipeline
+{
+  agent any
+  stages{
+    stage('Print Message')
+    {steps{sh 'echo Hello Nikunj'
+           sh 'echo How are You?'}}
+  }
+  
+}
