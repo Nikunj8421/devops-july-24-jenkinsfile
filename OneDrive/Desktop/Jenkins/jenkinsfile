@@ -1,0 +1,12 @@
+pipeline
+{
+agent any
+stages
+{
+ stage ('Print hello message')
+ { steps { sh "echo Hello_Jenkins" } }
+
+
+
+}
+}
